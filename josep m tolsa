@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<script>
+
+var	salutacio = 'Hola mon';
+//alert (salutacio);
+
+var elmeunom = "Hola Alba";
+//alert (elmeunom);
+
+var x = 5;
+var y = 8;
+var z = x+y;
+//alert (z);
+
+var preu1 = 2.55;
+var preu2 = 5.15;
+var preu3 = 4.20;
+var preutotal = preu1 + preu2 + preu3;
+//else alert ("el preu total és de " + preutotal);
+
+//if (preutotal<10) alert ("el preu no supera els 10€");
+//else if (preutotal>10) alert ("el preu supera els 10€");
+
+if (preu1 < 5 && preu2 < 5) alert ("els preus son inferiors a 5€")
+else alert('hi ha algun preu de més de 5 euros');
+
+if (preu1 < 5 || preu2 < 5) alert ("hi ha algun preu de menys de 5€")
+else alert ("tots els preus son superiors a 5€");
+
+if (preu1 < 5 && preu2 < 5 || preutotal < 10) alert ("els preus son inferiors a 5€ o el preu total es inferior a 10€");
+else alert ("hi ha algun preu de més de 5€ o la suma dels dos és de més de 10€");
+
+
+var edat = 30;
+if (edat < 30) alert ("tens menys de 30 anys");
+else if(edat < 40) alert ("tens menys de 40 anys");
+else if (edat < 50) alert ("tens menys de 50 anys");
+else if (edat > 50) alert ("tens més de 50 anys");
+
+</script>
+
+<body>
+
+	<h2>El meu primerJavaScript</h2>
+
+</body>
+
+</html>
